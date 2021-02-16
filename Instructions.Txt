@@ -1,0 +1,5 @@
+-->  Code First approach has been implemented
+-->  Test data has been seeded in the code, please run the main application once to create the db by itself
+--> Connection string is pointing to the LocalDB
+--> Unit test cases has been developed for all the scenarios as given in the problem description
+
