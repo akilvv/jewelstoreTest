@@ -1,0 +1,191 @@
+﻿/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}*/
+
+.usermessage-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.usermessage-header {
+  padding: 2px 6px;
+  margin-right:30px;
+  background-color: #5cb85c;
+  color: white;
+  text-align:center;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.font-bold {
+    font-weight:bold;
+}
+.required-field::after {
+  content: "*";
+  color: red;
+  margin-left:2px
+}
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.cardsmall {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 3px 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:79%;
+    height:100px;
+}
+/* On mouse-over, add a deeper shadow */
+.ui-grid .ui-grid-render-container-body .ui-grid-viewport {
+    overflow-x: auto !important;
+}
+.cardsmall:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+.cardrow {
+  margin-top:100px;
+  padding:25px;
+  background-color:aliceblue;
+  
+}
+
+.formstyle {
+  margin-top:10px;
+  background-color:aliceblue;
+  width:100%;
+  
+}
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 3px 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:100%;
+    height:150px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+
+.procloader {
+    border: 16px solid #888; /* Light grey */
+    border-top: 16px solid red;
+    border-bottom: 16px solid red;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.uigridStyle {
+  width: 1550px;
+  height: 500px;
+  margin-left:-220px;
+
+}
+
+.uiOWRgridStyle {
+  width: 1000px;
+  height: 300px;
+}
+
+#chatbox {
+    background-color:black;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    margin-top:60%;
+}
+
+.uiOWRgridStyle {
+  width: 1000px;
+  height: 300px;
+}
+.uiOWDetgridStyle {
+  width: 1000px;
+  height: 345px;
+}
+
+.gridd {
+    width: 800px;
+    height: 340px;
+}
+
+.gridStyle {
+    height: 200px;
+    margin-top:10px;
+}
+/*.ui-grid-pager-panel {
+    top: 370px;
+}*/
+
+.RepgridStyle {
+    height: 250px;
+    width:1500px;
+    margin-top:40px;
+    margin-left:-210px;
+}
+.uiTreegridStyle {
+  width: 1000px;
+  height: 250px; 
+}
+
+.list-group {
+    padding-left: 150px;
+    max-height: 200px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    cursor: pointer;
+    border:none;
+}
+
+.list-group-item:hover {
+    background-color: #c9dde1;
+}
+
+.img-btn-bck {
+    height: 35px;
+    width: 60px;
+    float: right;
+    cursor: pointer;
+}
+
+/*.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    height: auto;
+    width:auto;
+    float: left;
+    margin-top:10px;
+}*/
